@@ -1,0 +1,69 @@
+
+Dreamshopping端
+
+1.注册     三个JavaScript提示，
+用户名不能为空（代码），
+两次密码必须一致（代码）。
+
+2.登录     根据身份证号和密码登录
+
+3.主页
+
+首页商品每一个都是精挑细选
+          1.搜索。
+如果没有找到显示无商品。（爱的教育）
+ //中文提交的姓名和性别，搜索商品名称，会出现乱码问题，需要在web.xml文件中
+        
+//配置字符编码过滤器
+    <filter>
+    <description>字符集过滤器</description>
+    <filter-name>encodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+        <description>字符集编码</description>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+        <param-name>forceEncoding</param-name>
+        <param-value>true</param-value>
+    </init-param>
+</filter>
+<filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+
+
+          
+2.根据商品类别查询。
+          
+3.商品详细信息
+         
+ 4.加入购物车，
+两个商品相乘，三个商品相乘。
+实现商品价格计算。
+          5.创建订单。
+
+Admin端
+1.登录
+输入
+
+2.查询所有
+3.查看商品详情
+
+4.删除商品，两种方法ajax
+重定向
+
+先看数据库，数据库先删除，进入主页刷新
+（请求转发不可以直接跳转到另外一个请求，dispatcher-servlet配置文件中 
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/jsp/" p:suffix=".jsp"    />
+重定向可以）。
+
+
+
+5.编辑商品
+
+6.添加商品（图片名称）

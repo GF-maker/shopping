@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+}
+.yuan {
+    color: #ff4400;
+}
+.price {
+    color: #ff4400;
+    font-weight: bold;
+    margin-left: 5px;
+}

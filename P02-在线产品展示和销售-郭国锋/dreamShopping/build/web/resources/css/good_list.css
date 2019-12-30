@@ -1,0 +1,58 @@
+.yuan {
+    color: #ff4400;
+}
+.price {
+    color: #ff4400;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#hot_goods{
+    width: 1200px;
+    height: 500px;
+    margin: 10px auto;
+}
+#hot_goods h3{
+    height: 44px;
+    /*文字垂直居中*/
+    line-height: 44px;
+    font-size:20px;
+    color: #ff242d;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    /*热卖商品距离左侧距离*/
+    padding-left: 20px;
+    background: white;
+}
+#hot_goods .hot_goods_body ul{
+    list-style: none;
+/*    background: red;*/
+    
+    /*清除浮动*/
+    overflow:hidden;
+}
+#hot_goods .hot_goods_body ul li{
+    width: 238px;
+    height: 315px;
+    background: white;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    padding: 5px;
+}
+#hot_goods .hot_goods_body ul li:nth-child(5n){
+   
+    margin-right:0;
+}
+#hot_goods .hot_goods_body img{
+    width: 220px;
+    
+    height: 218px;
+    /*图片比较特属于不设置display值不能居中显示*/
+    display:block;
+    margin: 0 auto;
+}
+#hot_goods .hot_goods_body p{
+    font-size: 13px;
+    padding: 10px 3px;
+    
+}

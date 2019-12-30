@@ -1,0 +1,171 @@
+
+#header .nav ul li{
+
+    /*ul元素平分*/
+    flex: 1;
+    /*文字居中*/
+    text-align: center;
+}
+#header .nav ul li a{
+
+    color:white;
+    font-size:16px;
+    /*加粗字体*/
+    font-weight:bold;
+}
+#header .nav ul li a:hover{
+
+
+    font-size:19px;
+
+}
+#ad{
+    width: 1200px;
+    height: 400px;
+    /*background: #000;*/
+    /*广告居中*/
+    margin:0 auto;
+    /*广告距离顶部的距离*/
+    margin: 10px auto;
+}
+#ad img{
+    width: 1200px;
+    height: 400px;
+
+    /*广告居中*/
+    /*margin:0 auto;*/
+    /*广告距离顶部和下部的距离*/
+    /*margin: 10px auto;*/
+}
+#ms{
+    width: 1200px;
+    height: 305px;
+    /*background: blue;*/
+    margin: 0 auto;
+    /*秒杀边框距离广告页的距离*/
+    /*margin-top: 10px;*/
+}
+#ms .ms_title{
+    width: 1200px;
+    height: 55px;
+    background: #ff0000;
+    border-radius: 15px 0 0 0 ;
+    /*秒杀文字距离顶部55像素*/
+    line-height: 55px;
+}
+#ms .ms_body{
+    width: 1200px;
+    height: 250px;
+
+}
+#ms .ms_title span{
+    color:white;
+}
+
+#ms .ms_title span:first-child{
+    /*上下为零左右为十*/
+    margin: 0 10px;
+    font-size: 20px;
+    /*加粗*/
+    font-weight: bold;
+}
+
+#ms .ms_body ul{
+    width: 1200px;
+    height: 250px;
+    /*background: rosybrown;*/
+    /*去掉ul里面的小点*/
+    list-style: none;
+    /*平分*/
+    display: flex;
+    background: white;
+}
+#ms .ms_body ul li{
+    flex:1;
+    border-right: 1px solid #ccc;
+}
+#ms .ms_body ul li:last-child{
+    border-right:none;
+}
+#ms .ms_body ul a{
+    width: 100%;
+    height: 100%;
+    color: #6C6C6C;
+
+}
+#ms .ms_body ul a p{
+    /*字体大小*/
+    font-size: 12px;
+    /*字体两头留有空间*/
+    padding:0 12px;
+    /*距离上下十个像素左右为零*/
+    margin:10px 0;
+
+
+}
+#ms .ms_body ul a img{
+    /*图片居中显示*/
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+.yuan {
+    color: #ff4400;
+}
+.price {
+    color: #ff4400;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#hot_goods{
+
+    width: 1200px;
+    height: 500px;
+    margin: 10px auto;
+}
+#hot_goods h3{
+    height: 44px;
+    /*文字垂直居中*/
+    line-height: 44px;
+    font-size:20px;
+    color: #ff242d;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+
+    /*热卖商品距离左侧距离*/
+    padding-left: 20px;
+    background: white;
+}
+#hot_goods .hot_goods_body ul{
+    list-style: none;
+/*    background: red;*/
+    
+    /*清除浮动*/
+    overflow:hidden;
+}
+#hot_goods .hot_goods_body ul li{
+    width: 238px;
+    height: 315px;
+    background: white;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    padding: 5px;
+}
+#hot_goods .hot_goods_body ul li:nth-child(5n){
+   
+    margin-right:0;
+}
+#hot_goods .hot_goods_body img{
+    width: 220px;
+    height: 218px;
+    /*图片比较特属于不设置display值不能居中显示*/
+    display:block;
+    margin: 0 auto;
+}
+#hot_goods .hot_goods_body p{
+    font-size: 13px;
+    padding: 10px 3px;
+    
+}

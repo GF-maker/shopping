@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-4-18 9:29:19 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.qdu.pojo.Student" table="Student" schema="dbo" catalog="Spring" optimistic-lock="version">
+        <id name="stuId" type="string">
+            <column name="StuId" length="12" />
+            <generator class="assigned" />
+        </id> 
+        <property name="stuName" type="string">
+            <column name="StuName" not-null="true" />
+        </property>
+        <property name="stuPassword" type="string">
+            <column name="StuPassword" length="20" />
+        </property>
+         <property name="stuPassword2" type="string">
+            <column name="StuPassword2" length="20" />
+        </property>
+       
+        <property name="stuNumber" type="string">
+            <column name="stuNumber" />
+        </property>
+    <property name="stuEmail" type="string">
+            <column name="stuEmail" />
+        </property>
+    
+    
+    
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-4-17 22:42:50 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="Spring" name="com.qdu.pojo.Product" optimistic-lock="version" schema="dbo" table="Product">
+    <id name="productId" type="string">
+      <column length="4" name="ProductId"/>
+      <generator class="assigned"/>
+    </id>
+    
+    <property name="productName" type="string">
+      <column name="ProductName" not-null="true"/>
+    </property>
+    
+    <property name="productPrice" type="integer">
+      <column name="ProductPrice"/>
+       </property>
+      
+      
+      <property name="productDetil" type="string">
+      <column name="ProductDetil" not-null="true"/>
+    </property>
+    
+    <property name="productUnit" type="string">
+      <column name="ProductUnit" />
+    </property>
+    
+     <property name="productStock" type="integer">
+      <column name="ProductStock"/>
+     </property>
+     
+    <property name="productimage" type="string">
+      <column name="Productimage" />
+    </property>
+    
+    <property name="productdiscrib" type="string">
+      <column name="Productdiscrib" />
+    </property>
+   
+    
+  </class>
+</hibernate-mapping>

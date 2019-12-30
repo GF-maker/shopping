@@ -1,0 +1,119 @@
+.yuan {
+    font-size: 20px;
+    color: #ff4400;
+}
+.price {
+    color: #ff4400;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 25px;
+
+}
+
+#bread_crumb{
+    height: 56px;
+    /*background: red;*/
+}
+#bread_crumb .bread_center{
+    width: 1200px;
+    margin: 0 auto;
+    /*    background: #000;*/
+    line-height: 44px;
+    height: 44px;
+}
+#bread_crumb .bread_center a{
+    color: black
+}
+#details{
+    width: 1200px;
+    height: 400px;
+    /*background: red;*/
+    margin: 0 auto;
+    display:flex;
+}
+#details .detail_img{
+    width: 400px;
+    height: 400px;
+    background: blue;
+    flex: 1;
+    /*boder:1px solid #ccc;*/
+}
+#details .detail_img img{
+    width:100%;
+    height:100%;
+}
+#details .detail_price{
+    width: 800px;
+    height: 400px;
+    /*background: yellow;*/
+    flex: 2;
+}
+#details .detail_price h3{
+    margin-left: 8px;
+    font-size: 20px;
+    color:#666;
+}
+#details .detail_price .goods_price{
+    width: 70%;
+    height: 80px;
+    background: #f5f5f5;
+    margin: 10px 0;
+    padding: 20px;
+
+}
+#details .detail_price .goods_price  .ori_price{
+    font-size:15px;
+    color: #666;
+    position: relative;
+}
+#details .detail_price em{
+    width: 60px;
+    height: 1px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    left:30px;
+    top:10px;
+
+}
+#details .goods_count{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size:15px;
+}
+#details .goods_count input{
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    padding-left:10px;
+    margin-left: 10px;
+}
+#details .goods_buy{
+    margin-top: 40px;
+    margin-left: 10px;
+
+
+}
+#details .goods_buy input{
+    margin-left: 10px;
+    padding:10px 20px;
+    background: #ff4400;
+    color:white;
+    font-size:15px;
+}
+#introduce{
+    width: 1200px;
+    /*最小的高度，如果超过了高度，他自己会适应*/
+    min-height: 300px;
+    /*background: red;*/
+    margin: 0 auto;
+    margin-top:20px;
+}
+#introduce h3{
+    font-size:20px;
+    font-weight: bold;
+    background: #f5f5f5;
+    height: 44px;
+    line-height:44px;
+    padding-left: 15px;
+}

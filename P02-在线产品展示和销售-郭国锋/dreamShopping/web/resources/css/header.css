@@ -1,0 +1,152 @@
+#header .header_top{
+    height: 36px;
+    background: #f5f5f5;
+}
+
+#header{
+    background: white;
+}
+
+#header{
+    height: 210px;
+    /*background: red;*/
+}
+a{
+    /*删除a标签的下划线*/
+    text-decoration: none;
+}
+#header .h_top_center {
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto;
+    /* 垂直居中*/
+    line-height: 36px;  
+}
+#header .h_top_center .h_top_left{
+    /*设置左浮动使上面两行文字保持在同一行显示*/
+    float: left;
+    /*color:#67C6C6C;*/
+    font-size: 20px;
+    height: 36px;
+}
+#header .h_top_center .h_top_right {
+    /*设置右浮动*/
+    /*通过浮动可以使多个块元素待在一行*/
+    float: right;
+    height: 36px;
+}
+#header .h_top_center .h_top_right a{
+    /*color:#6C6C6C;*/
+    /*设置登录注册标签的间距*/
+    margin: 0 5px;
+    font-size: 16px;
+}
+#header .header_center{
+    width: 1200px;
+    height: 124px;
+    /*background: green;*/
+    margin: 0 auto;
+}
+#header .header_center .h_c_logo{
+    width: 190px;
+    height: 124px;
+    /*background: #000;*/
+    float: left;
+}
+#header .header_center .h_c_code{
+    width: 195px;
+    height: 124px;
+    /*background: yellow;*/
+    float: left;
+}
+#header .header_center .h_c_search{
+    width: 815px;
+    height: 124px;
+    /*background: blueviolet;*/
+    float: left;
+}
+#header .h_c_logo img{
+    width: 86px;
+    height: 88px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#header .h_c_search form{
+    width: 630px;
+    height: 40px;
+
+    margin-top: 40px;
+    margin-left: 80px
+}
+#header .h_c_search form .t_input{
+    width: 555px;
+    height: 40px;
+    border:2px solid #ff4400;
+    float: left;
+    /*让输入框中的文字向里走10像素的大小*/
+    padding-left: 10px;
+}
+#header .h_c_search form .t_button{
+    width: 75px;
+    height: 40px;
+    float: left;
+    background: #ff4400;
+    border:none;
+}
+#header .h_c_search .hot{
+    margin-top: 10px;
+    margin-left: 80px
+}
+#header .h_c_search .hot a{
+    color:#6C6C6C;
+    font-size:16px;
+    /*设置每个标签之间的距离*/
+    margin-right: 5px;
+}
+#header .h_c_search .hot a:hover{
+    color:#ff4400;
+}
+#header .h_c_search .hot a:first-child{
+    /*设置第一个标签放上去的颜色*/
+    color: #ff4400;
+}
+#header .h_c_code img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#header .nav{
+    width: 1200px;
+    height: 44px;
+    background: #ff4400;
+    margin: 0 auto;
+    /*设置圆角*/
+    border-radius: 8px ;
+}
+#header .nav ul{
+    /*让列表前面的小点消除掉*/
+    list-style: none;
+    width: 1200px;
+    height: 44px;
+    /*伸缩布局*/
+    display:flex;
+    /*a标签的文字距离上边框的高度*/
+    line-height: 44px;
+}
+#header .nav ul li{
+
+    /*ul元素平分*/
+    flex: 1;
+    /*文字居中*/
+    text-align: center;
+}
+#header .nav ul li a{
+    color:white;
+    font-size:16px;
+    /*加粗字体*/
+    font-weight:bold;
+}
+#header .nav ul li a:hover{
+    font-size:19px;
+
+}
+

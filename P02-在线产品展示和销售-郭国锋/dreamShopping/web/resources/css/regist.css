@@ -1,0 +1,114 @@
+#reg_header{
+    background: white;
+    width: 100%;
+    height: 110px;
+    /*background: red;*/   
+    /*边框颜色*/
+    box-shadow: 5px 0 15px #ccc;
+    /*x 方向偏移量 y 方向偏移量 模糊程度 颜色*/
+}
+#reg_header .reg_h_center{
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+    /*background: blue;*/
+    display: flex;
+}
+#reg_header .reg_h_center .reg_h_left{
+    height: 110px;
+    /*background: violet;*/ 
+    flex: 1;
+}
+#reg_header .reg_h_center .reg_h_left img{
+    width: 120px;
+    height: 100px;
+    float: left;   
+    margin-top: 5px;
+}
+#reg_header .reg_h_center .reg_h_left h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    float: left;  
+}
+#reg_header .reg_h_center .reg_h_right{
+    height: 110px;
+    /*background: yellow;*/
+    flex: 1;
+    text-align: right;
+    /*设置右边边框距离顶部的大小*/
+    padding-top: 60px;
+    padding-right: 20px;
+}
+#reg_header .reg_h_center .reg_h_right span{
+    /*margin-top: 70px;*/
+    /*居右显示*/
+    /*float: right;*/ 
+    font-size: 15px;
+    color: #666;
+}
+#reg_header .reg_h_center .reg_h_right a{
+    /*margin-top: 70px;*/
+    /*float: right;*/ 
+    font-size: 15px;
+    color: #666;
+}
+
+/*  #reg_content{
+                height: 700px;
+                width: 1400px;
+                background: red;
+                margin: 0 auto;
+               
+                background-image: url(../images/海贼王.jpg);
+            } */
+#login_body .login_b_center{
+    width: 1300px;
+    height:600px;
+    position: relative;
+}
+#login_body .login_b_center .login_bg{
+    width: 350px;
+    height: 450px;
+    background: rgba(255,255,255,0.5);/*设置透明度*/
+    position:absolute;
+    right:500px;
+    top:200px;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+#login div{
+    /*background: red;*/
+    line-height: 64px;
+    height: 40px;
+    width: 439px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#login input{
+    width: 290px;
+    height: 40px;
+    float: left;
+}
+#login .login_btn{
+    margin-top: 20px;
+}
+#login .login_btn input{
+    width: 290px;
+    font-size: 18px;
+}
+#login .yanzhe input{
+    width: 200px;
+    font-size: 18px;
+}
+/*    #login span{
+                width:40px;
+                height: 40px;
+                display: inline-block;
+                background: red;
+                float: left;
+            }
+            #login .yanzhe span{
+                background-image: url(../images/用户名图片.jpg);
+            }
+*/
